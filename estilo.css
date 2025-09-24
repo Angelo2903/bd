@@ -1,0 +1,211 @@
+/* Estilo Bong portfolio forest */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #0f1b0f, #1a3220);
+  color: #e0ffe7;
+  background-image: url('https://media.istockphoto.com/id/2190017372/photo/blood-moon-or-harvest-moon-image-on-purple-twilight-sky-with-silhouette-image-of-palm-trees.jpg?s=2048x2048&w=is&k=20&c=7dOnclCeVsugcxPvggwHG2khKCcfIkRbEAY6zRd1rZ4='); /* Fondo oscuro con rayo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* Bienvenida tipo Bong */
+.welcome-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 20, 10, 0.95);
+  color: #9effb7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeOut 2s ease forwards;
+  animation-delay: 3s;
+  z-index: 9999;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.welcome-screen h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.welcome-screen .year {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.welcome-screen p {
+  font-size: 1.2rem;
+  color: #80ffb5;
+  margin-top: 1rem;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 2rem;
+  color: #a0ffd1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+header nav a {
+  color: #9effb7;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Botón */
+.add-button-container {
+  text-align: center;
+  margin: 1rem;
+}
+
+#addProjectBtn {
+  background-color: #34d399;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#addProjectBtn:hover {
+  background-color: #059669;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 16px;
+  color: white;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-content input, .modal-content textarea {
+  padding: 0.6rem;
+  background: #111;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 8px;
+}
+
+.modal-content button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#saveProject {
+  background: #34d399;
+  color: black;
+}
+
+#closeModal {
+  background: #ef4444;
+  color: white;
+}
+
+/* Tarjetas */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: rgba(0,0,0,0.75);
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-align: center;
+  color: #d1fae5;
+  box-shadow: 0 4px 20px rgba(0, 255, 170, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.card img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+.card p {
+  color: #a7f3d0;
+  margin-bottom: 1rem;
+}
+
+.card a {
+  display: inline-block;
+  background: #10b981;
+  color: black;
+  padding: 6px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 5px 4px;
+}
+
+.card a:hover {
+  background: #065f46;
+  color: white;
+}
+
+/* Botón eliminar */
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+    

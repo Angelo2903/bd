@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Angelo | Portfolio Profesional</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Bienvenida -->
+  <div id="welcome" class="welcome-screen">
+    <h1><B> BIENVENIDOS A MI PORTAFOLIO</B><br><span class="year">ANGELO</span></h1>
+    <p>Soy un estudiante de Ingenieria de Sistemas y Computacion, me apasiona la programación</p>
+  </div>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Angelo</h1>
+    <nav>
+      <a href="#sobre-mi">Sobre Mí</a>
+      <a href="#descripcion">Descripción</a>
+    </nav>
+  </header>
+
+  <!-- Botón agregar -->
+  <div class="add-button-container">
+    <button id="addProjectBtn">+ Agregar Semana</button>
+  </div>
+
+  <!-- Modal para añadir -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>Nueva Semana</h2>
+      <input type="text" id="weekTitle" placeholder="Título (Ej: Semana 06)">
+      <input type="text" id="weekDesc" placeholder="Descripción">
+      <input type="text" id="weekImg" placeholder="URL del ícono">
+
+      <div id="linkInputs">
+        <div class="link-row">
+          <input type="text" placeholder="Nombre del enlace" class="link-name">
+          <input type="text" placeholder="URL" class="link-url">
+        </div>
+      </div>
+
+      <button id="addLinkBtn">+ Añadir Enlace</button>
+      <button id="saveProject">Guardar</button>
+      <button id="closeModal">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- Tarjetas -->
+  <main id="projects-container"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
