@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "SEMANA 01",
       desc: "Diagrama y Práctica",
       links: [
-        { name: "Ver Miro", url: "https://miro.com/app/board/uXjVIFahQhU=/?share_link_id=310199185276" },
-        { name: "Resumen", url: "https://www.canva.com/design/DAGji3nxKrI/gE5sHO90rC7vXzM64YdERA/view?utm_content=DAGji3nxKrI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8c3996c150" }
+        { name: "Ver Miro", url: "   " },
+        { name: "Resumen", url: "" }
       ]
     },
     {
@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "SEMANA 02",
       desc: "Modelado Relacional",
       links: [
-        { name: "Enunciado 01", url: "https://www.canva.com/design/DAGlTfZnLSI/4ZpuomfXtzUozUnNe0RKXg/edit" },
-        { name: "Enunciado 02", url: "https://www.canva.com/design/DAGlU11ERj4/fnumjxzASonyIXjkmCXBsw/edit" }
+        { name: "Enunciado 01", url: "" },
+        { name: "Enunciado 02", url: "" }
 
 
       ]
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "SEMANA 03",
       desc: "Tablas",
       links: [
-        { name: "Tabla Relacional", url: "https://docs.google.com/spreadsheets/d/1Sk12gSpmH-5YUzsZd6j6cFm_DnRaNpFguwDB6bbgcEo/edit?gid=627531248#gid=627531248" }
+        { name: "Tabla Relacional", url: "" }
       ]
     },
     {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "SEMANA 04",
       desc: "Tablas 2",
       links: [
-        { name: "Tablas", url: "https://docs.google.com/spreadsheets/d/1aK6Or0g157QAtJsptAKmK1gWxZpa1d3j5TaqiSx7tk8/edit?gid=195376030#gid=195376030" }
+        { name: "Tablas", url: "" }
       ]
     },
     {
@@ -251,3 +251,4 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 });
+
