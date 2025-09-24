@@ -36,123 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Tablas", url: "" }
       ]
     },
-    {
-      img: "https://img.icons8.com/fluency/96/css3.png",
-      title: "SEMANA 05",
-      desc: "",
-      links: [
-        { name: "Paleta de colores", url: "https://coolors.co/" }
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/javascript.png",
-      title: "SEMANA 06",
-      desc: "Conexion",
-      links: [
-        { name: "Conexion Sql con Microsoft Azure", url: "http://docs.google.com/document/d/18yF7wg6ExwatzVnEvujcfgDikj09ibVrU8v7tzWwWTM/edit?pli=1&tab=t.0" }
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/github.png",
-      title: "SEMANA 07",
-      desc: "Manual",
-      links: [
-        { name: "Manual Microsoft Azure", url: "https://docs.google.com/document/d/1ClflV5KB83S19a_yis6aOMlByG3gK6kMlokuCn7RDmE/edit?tab=t.0" }
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/bug.png",
-      title: "SEMANA 08",
-      desc: "Manuales",
-      links: [
-        { name: "Manual Pagina Web en Azure", url: "https://docs.google.com/document/d/1kqhCZb21vZwizu6ky2RNgX10CwthtlEw5MytAchTkwk/edit?tab=t.0" },
-         { name: "Manual Base de Datos en Azure", url: "https://docs.google.com/document/d/1kqhCZb21vZwizu6ky2RNgX10CwthtlEw5MytAchTkwk/edit?tab=t.0" }
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/server.png",
-      title: "Examen Parcial",
-      desc: "Sesiones a Realizar",
-      links: [
-        { name: "Sesion 01", url: "https://docs.google.com/document/d/1ClflV5KB83S19a_yis6aOMlByG3gK6kMlokuCn7RDmE/edit?tab=t.0" },
-        { name: "Sesion 02", url: "https://docs.google.com/document/d/11ifMwB3YL5bXKuNffwv9u2YagSKe0SeR-KLKpYAOLDc/edit?tab=t.0" },
-        { name: "Sesion 03", url: "https://docs.google.com/document/d/1JGhMfvB3LutjiojaiUtbrVViQ3hSDqEVO44nQyVqbCY/edit?tab=t.0" },
-        { name: "Sesion 04", url: "https://docs.google.com/document/d/14CvIiN8rGtSx1824vNSC2jvIkfgdcW35BYU1Vw6wk40/edit?tab=t.0" },
-        { name: "Sesion 05", url: "https://docs.google.com/document/d/1Fis2LFnucdBYXvIr2wEDz_GQfFt1_PrOB8ClI3ruGx0/edit?tab=t.0" },
-        { name: "Sesion 06", url: "https://docs.google.com/document/d/1Fis2LFnucdBYXvIr2wEDz_GQfFt1_PrOB8ClI3ruGx0/edit?tab=t.0" }
-
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/bug.png",
-      title: "SEMANA 10",
-      desc: "Actividad",
-      links: [
-        { name: "ACTIVIDAD 01", url: "https://docs.google.com/document/d/1kMVq2QJCvcr_nlvWttTFUMbC2fKAwHp3yPtqd2wZ51w/edit?tab=t.0" },
-       { name: "ACTIVIDAD 02", url: "https://docs.google.com/document/d/1CVCoVpQUEl65JyMMplDbBSbH5nPT0AUrE2y2pmEfDYg/edit?tab=t.0" }
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/php.png",
-      title: "SEMANA 11",
-      desc: "Consultas",
-      links: [
-        { name: "Base de Datos", url: "https://docs.google.com/document/d/1NSAzer5MgOHIZeDQ6q7fCOTbbsCd6Cdvo5c-fbT_RQU/edit?tab=t.0" },
-        { name: "Modelo Grafico", url: "https://docs.google.com/document/d/1bWTgPjQr1vga6Gsy9rDPC8PxIhyGBMmmj7A2-RqvyAU/edit?tab=t.0" }
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/bug.png",
-      title: "SEMANA 12",
-      desc: "Diseño web responsivo",
-      links: [
-        { name: "Modulo 1", url: "https://docs.google.com/document/d/1nWgIF3HV47PYL_sN8s7pEa4IPf3yaJC7rYq6WU7NOPE/edit?tab=t.0" },
-        { name: "Modulo 2", url: "https://docs.google.com/document/d/1UJ5nPwyJYItjiDNS-WN4EgQYSV88OWW5HhjEjTtQtr0/edit?tab=t.0" },
-        { name: "Modulo 3", url: "https://docs.google.com/document/d/1ostMs69jrF4yzAcoM1GVLBJuZ84ep-813vbVnWHO_fA/edit?tab=t.0#heading=h.j5zxee8juoa" }
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/bootstrap.png",
-      title: "SEMANA 13",
-      desc: "Diseño con Bootstrap",
-      links: [
-        { name: "Modulo 4", url: "https://docs.google.com/document/d/1x3zSwmTm_sXTu0Bve8oC95Wn9Af8ZIDOxFYTnbL7iK4/edit?tab=t.0#heading=h.1jfg95ugitqm" },
-       { name: "Modulo 5", url: "https://docs.google.com/document/d/1yCq3-OkgONgMDxK4mF79Jb6E2npeANMMGp1Eg_XleUQ/edit?tab=t.0" }
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/analytics.png",
-      title: "SEMANA 14",
-      desc: "Análisis de rendimiento",
-      links: [
-        { name: "Modulo 6", url: "https://docs.google.com/document/d/1watROCoA9yBditgzPizugqyBJjv15FpM1g4MMiAjOAc/edit?tab=t.0#heading=h.kq87pvk8blwv" },
-        { name: "Modulo 7", url: "https://docs.google.com/document/d/1kjpIfJs1yrc7IMShAq0hM1xR2dSgfdax9iP4NE_6Fo0/edit?tab=t.0#heading=h.6fcs8ptkltez" }
-                
-
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/bug.png",
-      title: "SEMANA 15",
-      desc: "Pruebas y debugging",
-      links: [
-        { name: "Modulo 8", url: "https://docs.google.com/document/d/18yF7wg6ExwatzVnEvujcfgDikj09ibVrU8v7tzWwWTM/edit?pli=1&tab=t.0" }
-      ]
-    },
-    {
-      img: "https://img.icons8.com/fluency/96/check-all.png",
-      title: "SEMANA 16",
-      desc: "Entrega y documentación final",
-      links: [
-        { name: "Informe final", url: "https://docs.google.com/" }
-      ]
-    }
+  
   ];
 
   const container = document.getElementById("projects-container");
@@ -251,4 +135,5 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 });
+
 
