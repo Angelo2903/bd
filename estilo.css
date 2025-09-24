@@ -10,6 +10,26 @@ body {
   background-attachment: fixed;
 }
 
+/* Apply Flexbox to the container */
+body {
+  display: flex;
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;      /* Vertical centering */
+  height: 100vh;            /* Full viewport height */
+  margin: 0;                /* Remove default body margin */
+  text-align: center;       /* Center text inside elements */
+}
+
+/* Ensure the logo and title are centered */
+.logo {
+  margin-bottom: 20px; /* Adjust spacing between logo and title */
+}
+
+.titulo-header {
+  font-size: 1.5rem;
+  color: #333; /* Optional: Customize text color */
+}
+
 /* Bienvenida tipo Bong */
 .welcome-screen {
   position: fixed;
@@ -209,4 +229,5 @@ main {
 }
 
     
+
 
