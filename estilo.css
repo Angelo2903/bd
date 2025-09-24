@@ -10,6 +10,27 @@ body {
   background-attachment: fixed;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Centra el texto también */
+}
+
+/* Contenedor para el logo y el título */
+.logo {
+  margin-bottom: 20px; /* Espacio entre el logo y el título */
+}
+
+/* Título */
+.titulo-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Color del texto */
+} 
 
 /* Bienvenida tipo Bong */
 .welcome-screen {
@@ -208,4 +229,5 @@ main {
 .delete-btn:hover {
   background: #b91c1c;
 }
+
     
