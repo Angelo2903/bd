@@ -1,22 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
   let projects = [
     {
-      img: "https://img.icons8.com/fluency/96/api.png",
+      img: "https://img.icons8.com/fluency/96/code.png",
       title: "SEMANA 01",
-      desc: "Manuales e informe",
+      desc: "Diagrama y Práctica",
       links: [
-        { name: "Manual 1", url: "https://docs.google.com/document/d/18Um3kyI3XmMaWADdavbTju7eIksdCOEggj2q8CF-hYs/edit?tab=t.0" },
-        { name: "Manual 2", url: "https://docs.google.com/document/d/1NTMdVziGDGQaQkhq6y61BEBB5vMY0eqQYsVM5gWkYck/edit?tab=t.0" }
-        { name: "Informe Tecnico", url: "https://docs.google.com/document/d/1WthhTNbMWHzl9ztKO4oNKmdGEQut9qNiCMLQJXMwHpw/edit?tab=t.0" }
+        { name: "Ver Miro", url: "https://miro.com/app/board/uXjVIFahQhU=/?share_link_id=310199185276" },
+        { name: "Resumen", url: "https://www.canva.com/design/DAGji3nxKrI/gE5sHO90rC7vXzM64YdERA/view?utm_content=DAGji3nxKrI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8c3996c150" }
       ]
     },
     {
-      img: "https://img.icons8.com/fluency/96/code.png",
+      img: "https://img.icons8.com/fluency/96/database.png",
       title: "SEMANA 02",
-      desc: "Manual y Modelado Relacional",
+      desc: "Modelado Relacional",
       links: [
-        { name: "Enunciado 1", url: "https://www.canva.com/design/DAG0pHTmDjE/U6rJ3CdiVvIt9BBCmfVliA/edit" },
-        { name: "Manual: SQL", url: "https://docs.google.com/document/d/1FO5zPxvOGl1B8m01hKIGZePFt-EdO4zNLXWE98ZtkJI/edit?tab=t.0" }
+        { name: "Enunciado 01", url: "https://www.canva.com/design/DAGlTfZnLSI/4ZpuomfXtzUozUnNe0RKXg/edit" },
+        { name: "Enunciado 02", url: "https://www.canva.com/design/DAGlU11ERj4/fnumjxzASonyIXjkmCXBsw/edit" }
 
 
       ]
@@ -26,18 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "SEMANA 03",
       desc: "Tablas",
       links: [
-        { name: "Tabla Relacional", url: "" }
+        { name: "Tabla Relacional", url: "https://docs.google.com/spreadsheets/d/1Sk12gSpmH-5YUzsZd6j6cFm_DnRaNpFguwDB6bbgcEo/edit?gid=627531248#gid=627531248" }
       ]
     },
     {
       img: "https://img.icons8.com/fluency/96/html-5.png",
       title: "SEMANA 04",
-      desc: "Diseño de Arquitectura",
+      desc: "Tablas 2",
       links: [
-        { name: "Ejercicios", url: "https://www.canva.com/design/DAG0kQ82T8E/PkbC2N-1J0LlVLK2wIMjvg/edit" }
+        { name: "Tablas", url: "https://docs.google.com/spreadsheets/d/1aK6Or0g157QAtJsptAKmK1gWxZpa1d3j5TaqiSx7tk8/edit?gid=195376030#gid=195376030" }
       ]
     },
-  
   ];
 
   const container = document.getElementById("projects-container");
@@ -136,6 +134,3 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 });
-
-
-
